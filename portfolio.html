@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>UX Portfolios - UMSI</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="#main" class="skip-link">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="networking.html">Networking & Connections</a></li>
+                <li class="active"><a href="portfolio.html">Portfolios</a></li>
+            </ul>
+        </nav>
+        <h1>UX Portfolio Guide & Rubric</h1>
+    </header>
+
+    <main id="main">
+        <section class="content-section">
+            <h2>Why Build a Portfolio?</h2>
+            <p>A professional portfolio gives you the power to demonstrate your skills, projects, and potential—it's like a highlight reel and toolbox, combined. Whether you're applying for a job, internship, or grad school, a portfolio provides proof of your expertise and tells your unique story. Employers love them, because portfolios turn your claims ("I'm a great designer!") into visible evidence ("See my projects, right here!").</p>
+            <div class="grid-cards">
+                <div class="card">
+                     <img src="images/UMSI_MastersOrientation_081825_02.jpg" alt="UMSI Masters Orientation event.">
+                </div>
+                <div class="card">
+                     <img src="images/UMSI_MastersOrientation_081825_18.jpg" alt="UMSI Masters Orientation event.">
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>What Should You Include?</h2>
+            <ul>
+                <li><strong>Your Best Work:</strong> Feature 3-6 standout projects related to information, design, data, programming, or whatever field you are targeting.</li>
+                <li><strong>Project Overviews:</strong> For each project, add a concise summary, your role, the tools and skills you used, and major outcomes or impact.</li>
+                <li><strong>Resume & About Section:</strong> Briefly introduce yourself and link your resume so visitors see both your journey and your achievements.</li>
+                <li><strong>Contact Information:</strong> Make it easy for recruiters or collaborators to reach out.</li>
+            </ul>
+        </section>
+
+        <section class="card content-section">
+            <h3>Getting Started: Quick Tips</h3>
+            <ul>
+                <li>Choose Your Platform: UMSI recommends starting with Github Pages, Wix, Squarespace, or Google Sites.</li>
+                <li>Accessibility: Use clear fonts, alt text for images, and color contrast that passes <a href="https://wave.webaim.org/" target="_blank">WAVE</a> checks.</li>
+                <li>Tell Your Story: Make your introduction personal yet professional.</li>
+                <li>Get Feedback: Share your draft portfolio with the CDO.</li>
+            </ul>
+        </section>
+        
+        <section class="faq-section">
+            <h3>Portfolio FAQ</h3>
+
+            <details class="faq">
+                <summary>Do I need coding experience?</summary>
+                <p>No! Many platforms are drag-and-drop. But basic HTML/CSS gives you creative control.</p>
+            </details>
+
+            <details class="faq">
+                <summary>How often should I update?</summary>
+                <p>Whenever you finish a major project—at least once per semester.</p>
+            </details>
+
+            <details class="faq">
+                <summary>Can I include group projects?</summary>
+                <p>Absolutely! Just clarify your specific role and contribution.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <body id="top">
+
+    <a href="#top" class="back-to-top">Back to Top</a>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

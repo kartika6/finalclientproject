@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Page Not Found - UMSI</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="#main" class="skip-link">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" width="100" alt="UMSI Logo">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resumes</a></li>
+                <li><a href="networking.html">Networking & Connections</a></li>
+                <li><a href="portfolio.html">Portfolios</a></li>
+            </ul>
+        </nav>
+        <h1>404 - Page Not Found</h1>
+    </header>
+
+    <main id="main" class="container">
+        <section class="full-width text-block">
+            <h2>Oops! We couldn't find that page.</h2>
+            <p>It looks like the link you followed might be broken, or the page has been moved. Don't worry, you can easily get back on track!</p>
+            <p><a href="index.html"><strong>Return to the Homepage</strong></a></p>
+        </section>
+
+        <section class="half-width text-block">
+            <h3>Popular Destinations</h3>
+            <ul>
+                <li><a href="resume.html">Resume Support</a></li>
+                <li><a href="networking.html">Networking & Connections</a></li>
+                <li><a href="portfolio.html">UX Portfolios</a></li>
+            </ul>
+        </section>
+
+        <section class="half-width text-block">
+            <h3>Need Help?</h3>
+            <p>If you're looking for specific career advice or can't find a resource, you can always <a href="https://umich.instructure.com/courses/137916/pages/talk-to-a-career-coach" target="_blank">reach out to a CDO Career Coach</a>.</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; <span id="current-year"></span> University of Michigan School of Information | <a href="https://umich.instructure.com/courses/137916">UMSI Career Development Office</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
